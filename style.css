@@ -1,0 +1,146 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+h1{
+    color: #13461f;
+    font-size: 25px;
+}
+
+.cont{
+    width: 100%;
+    height: 100vh;
+    background-color: #E9EFC0 ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.skills{
+    font-weight: 500;
+    margin-top: 40px;
+    margin-bottom: 5px;
+    letter-spacing: 1px;
+}
+.siam{
+    margin: 25px 0 5px 0;
+}
+.progress-bar{
+    height: 10px;
+    width: 600px;
+    background: #96BB7C;
+    border-radius: 5px;
+}
+.progress-bar div{
+    height: 10px;
+    border-radius: 5px;
+    width: 0%;
+}.progress-bar div span{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background: #E9EFC0;
+    float: right;
+    margin: -15px -20px 0 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* html starts  */
+.html{
+    background-color: #FD5D5D;
+    animation: html 1s linear forwards;
+}
+.html span{
+    border: 1px solid #FD5D5D;
+    color: #FD5D5D;
+}
+@keyframes html{
+    100%{
+        width: 90%;
+    }
+}
+/* html ends  */
+
+/* css starts */
+.css{
+    background-color: #998CEB;
+    animation: css 1s linear forwards;
+}
+.css span{
+    border: 1px solid #998CEB;
+    color: #998CEB;
+}
+@keyframes css{
+    100%{
+        width: 85%;
+    }
+}
+/* css ends  */
+
+/* js starts */
+.js{
+    background-color: #D83A56;
+    animation: js 1s linear forwards;
+}
+.js span{
+    border: 1px solid #D83A56;
+    color: #D83A56;
+}
+@keyframes js{
+    100%{
+        width: 78%;
+    }
+}
+/* js ends  */
+
+/* bs starts */
+.bs{
+    background-color: #77E4D4;
+    animation: bs 1s linear forwards;
+}
+.bs span{
+    border: 1px solid #77E4D4;
+    color: #77E4D4;
+}
+@keyframes bs{
+    100%{
+        width: 72%;
+    }
+}
+/* bs ends  */
+
+/* python starts */
+.python{
+    background-color: #C449C2;
+    animation: python 1s linear forwards;
+}
+.python span{
+    border: 1px solid #C449C2;
+    color: #C449C2;
+}
+@keyframes python{
+    100%{
+        width: 60%;
+    }
+}
+/* python ends  */
+
+/* next js starts */
+.next{
+    background-color: #F2789F;
+    animation: next 1s linear forwards;
+}
+.next span{
+    border: 1px solid #F2789F;
+    color: #F2789F;
+}
+@keyframes next{
+    100%{
+        width: 55%;
+    }
+}
